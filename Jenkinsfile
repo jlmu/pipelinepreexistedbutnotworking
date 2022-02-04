@@ -9,7 +9,7 @@ pipeline {
     stage('Test Firefox') {
       parallel {
         stage('Test Firefox') {
-          steps {
+          stneps {
             sh 'echo \'Testing Firefox\''
           }
         }
